@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form</title>
+        
+        <link rel="stylesheet" type="text/css" href="theme.css">
+    </head>
+
+    <body>
+        <nav>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="form.html">Form</a></li>
+        </nav>
+
+        <form>
+            <div class="rows">
+                <label>Name:</label>
+                <input type="text">
+            </div>
+                <div class="rows">
+                <label>Age:</label>
+                <input type="number">
+            </div>
+            
+            <div class="rows">
+                <label>Telephone:</label>
+                <input type="number">
+            </div>
+            
+                Gender: 
+                <div class="rows">
+                <label class="gender">Male</label><input type="radio" name="gender" class="gender1">
+                <label class="gender">Female</label><input type="radio" name="gender" class="gender1">
+            </div>
+            <div class="rows">
+                <label>ID Type:</label>
+                <select>
+                <option>Ghana Card</option>
+                <option>NHIS Card</option>
+                <option>Voter's ID</option>
+                <option>Passport</option>
+            </select>
+            </div>
+            <div class="rows">
+            <label>ID Number:</label>
+            <input type="number">
+            </div>
+            <input type="submit" id="submit">
+        </form>
+    </body>
+</html>
